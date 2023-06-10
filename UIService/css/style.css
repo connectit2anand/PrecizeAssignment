@@ -1,0 +1,95 @@
+body {
+margin: 0;
+padding: 0;
+min-height: 100vh;
+font-family: 'Poppins', sans-serif;
+}
+  
+
+
+/* ==========================================================================
+   #BACKGROUND
+   ========================================================================== */
+   .bg-blue {
+    background: #2c6ed5;
+  }
+  
+  .bg-red {
+    background: #fa4251;
+  }
+  
+  .bg-gra-01 {
+    background: -webkit-gradient(linear, left bottom, left top, from(#fbc2eb), to(#a18cd1));
+    background: -webkit-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+    background: -moz-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+    background: -o-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+    background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+    background-size: cover;
+  }
+  
+  .bg-gra-02 {
+    background: -webkit-gradient(linear, left bottom, right top, from(#fc2c77), to(#6c4079));
+    background: -webkit-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
+    background: -moz-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
+    background: -o-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
+    background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);
+  }
+
+
+  .page-header {
+    text-align: center;
+  }
+  .page-header h1 {
+    margin-top: 30px;
+    color: aliceblue;
+  }
+
+  .contact-form {
+    max-width: 650px;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .login-form {
+    max-width: 300px;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.box {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.linkStyle {
+    text-decoration: none;
+    color: #fff;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 200px;
+    width: 100%;
+}
+
+.tablebox {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}

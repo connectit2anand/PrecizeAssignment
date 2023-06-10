@@ -1,5 +1,7 @@
 # Crud Management System.
 
+![Logo](https://github.com/connectit2anand/PrecizeAssignment/blob/main/images/logo.png?raw=true)
+
 CRUD Management System is a web application for CRUD operations.
 
 # 👉 [Click here]() to go through detail explanation of this application 
@@ -23,5 +25,19 @@ CRUD Management System is a web application for CRUD operations.
 - Update SAT score
 - Delete user
 
+## Swagger views
+![1](https://github.com/connectit2anand/PrecizeAssignment/blob/main/images/1a.png?raw=true)
 
+
+## Frontend views
+
+![2](https://github.com/connectit2anand/PrecizeAssignment/blob/main/images/2a.png?raw=true)
+
+![3](https://github.com/connectit2anand/PrecizeAssignment/blob/main/images/3a.png?raw=true)
+
+![4](https://github.com/connectit2anand/PrecizeAssignment/blob/main/images/4a.png?raw=true)
+
+![5](https://github.com/connectit2anand/PrecizeAssignment/blob/main/images/5a.png?raw=true)
+
+![6](https://github.com/connectit2anand/PrecizeAssignment/blob/main/images/6a.png?raw=true)
 

@@ -98,7 +98,7 @@ public class UserServiceImpl implements UserService{
 			int currentSatScore = currentUser.getSatScore();
 			int j = i;
 			while(j < usersList.size() && usersList.get(j).getSatScore() == currentSatScore) {
-				if(usersList.get(j).getName().equals(name)) {
+				if(usersList.get(j).getName().equalsIgnoreCase(name)) {
 					return rank;
 				}
 				++ j;

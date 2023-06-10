@@ -17,7 +17,10 @@ function userRank(name){
         return response.text();
     })
     .then(data =>{
-        alert(`Your Rank is ${data}`);
+        if(data.length == 1)
+            alert(`Your rank is ${data}`);
+        else 
+            alert(data);
     })
     .catch(error =>{
         alert("Something Went Wrong, Try Again");

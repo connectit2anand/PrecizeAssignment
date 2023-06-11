@@ -17,10 +17,11 @@ function userRank(name){
         return response.text();
     })
     .then(data =>{
-        if(data.length == 1)
-            alert(`Your rank is ${data}`);
-        else 
+        if(data.substring(0,8) == 'Username')
             alert(data);
+        else {
+            alert(`Your rank is ${data}`);
+        }
     })
     .catch(error =>{
         alert("Something Went Wrong, Try Again");

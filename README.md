@@ -4,7 +4,7 @@
 
 CRUD Management System is a web application for CRUD operations.
 
-# 👉 [Click here]() to go through detail explanation of this application 
+# 👉 [Click here](https://drive.google.com/file/d/1ugtwG482c4j-Fg7D0Ka9--MvH4N2uxEw/view?usp=sharing) to go through detail explanation of this application 
 
 # Tech stacks(Frontend)
 - HTML5

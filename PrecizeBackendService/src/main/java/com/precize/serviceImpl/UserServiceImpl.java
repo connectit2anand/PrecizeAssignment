@@ -93,10 +93,15 @@ public class UserServiceImpl implements UserService{
 		
 		int rank = 1;
 		int i = 0;
+		
 		while(i < usersList.size()) {
 			User currentUser = usersList.get(i);
 			int currentSatScore = currentUser.getSatScore();
 			int j = i;
+			/*
+				Handling the case for same SAT Score.
+				Example: If two users are having same SAT Score then their Rank will be same
+			*/
 			while(j < usersList.size() && usersList.get(j).getSatScore() == currentSatScore) {
 				if(usersList.get(j).getName().equalsIgnoreCase(name)) {
 					return rank;
